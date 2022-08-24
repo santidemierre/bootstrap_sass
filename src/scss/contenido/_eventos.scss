@@ -1,0 +1,13 @@
+.eventos {
+
+    .card {
+        &:hover {
+            cursor: pointer;
+        }
+
+        .fecha {
+            color: #877457;
+        }
+    }
+
+}

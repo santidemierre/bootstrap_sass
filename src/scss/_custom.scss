@@ -1,0 +1,22 @@
+// Reescribir variables de boostrap
+$rojo: #F34F51;
+$verde: #0098AE;
+$oscuro: #212121;
+$gris: #b5b5b5;
+
+// Asisgnar paleta de colores a BS
+$secondary: $verde;
+$primary: $rojo;
+$dark: $oscuro;
+
+// Tipografia
+$display-font-weight: 900;
+$headings-font-weight:700;
+
+/* Nav Link */
+$nav-link-padding-x: 0; /* Asi estaba = 1rem !default; */
+$nav-link-color: $gris;
+$nav-link-hover-color: darken($gris, 10%); /* Cuando quiero oscurecer el color gris al darle hover */
+
+// Importar bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
